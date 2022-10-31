@@ -1,13 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Collections;
-using System.Runtime.Serialization;
 
 namespace test {
+
 
     class Test
     {
         static void Main(string[] args)
         {
+
             var idGenerator = new IdGenerator();
             User user1 = new User(idGenerator.Id, "John", 1);
             User user2 = new User(idGenerator.Id, "Sally", 10);
